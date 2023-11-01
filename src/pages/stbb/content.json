@@ -1,0 +1,103 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "STBB Direct",
+        "text": "A mobile software application for property and conveyancing"
+    },
+   "sections":
+   [
+      {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "Established in 1900, STBB is a firm of approximately 90 business-minded lawyers practicing from 12 branches throughout South Africa primarily in conveyancing."      
+      },
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "STBB Direct was designed for buyers, sellers and property agents to assist them is tracking deals, allow financial calculations and produce and refine documentation.<br> Additionally the system includes secure document transfer and traking between parties and long term secure document storage. " 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "In conjunction with a team from Polymorph I designed and developed the backend and front end solutions. I led the development team and completed all architecture and security designs."        
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "Backend and storage services are provided by google firebase using realtime, firecloud and firebase storage. Front end client are provided for Android iOS and browser using Ionic wrapped with Apache Cordova."        
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software is in constant use by several thousand clients and agents throughout South Africa and the world."        
+    },
+    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the software.",
+        "images": [
+            {
+                "image":"stbb1.jpg",
+                "title": "Home Screen",
+                "caption": "The basic facilties available to STBB Direct users."
+            },
+            {
+                "image":"stbb4.jpg",
+                "title": "Matter Tracking",
+                "caption": "Watching the status of a matter as it progresses to completion."
+            },        
+            {
+                "image":"stbb3.jpg",
+                "title": "eVault",
+                "caption": "eVault screen to store all your legal documents."
+            },
+            {
+                "image":"stbb2.jpg",
+                "title":"Document Scanning",
+                "caption": "Documents can be scanned, colour corrected and keystone corrected (with automatic edge detection). Facilities to scan mutlipage documents are also available."
+            },
+            {
+                "image":"stbb5.jpg",
+                "title": "Podcasts",
+                "caption": "Podcast player for listening to STBB advisories."
+            }
+        
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"STBB Site",
+                "url":"https://www.stbb.co.za"
+            },
+            {
+                "text":"Client software in the browser",
+                "url":"https://stbb.co.za/stbb-direct/"
+            },
+            {
+                "text":"Google Play Store",
+                "url":"https://play.google.com/store/apps/details?id=za.co.stbb.dealsmatter2"
+            },
+            {
+                "text":"Apple Store",
+                "url":"https://apps.apple.com/za/app/stbb-direct/id1441526375"
+            }
+        ]
+    }
+ 
+   ]
+  
+}

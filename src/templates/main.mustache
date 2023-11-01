@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div id="top">
+    <div id="leftpanel">
+    <a href="./home.html" id=elsys_logo></a>    
+    <div class="elsys_breaker "> </div>
+    <a href="./about.html">about</a>
+    <a href="./portfolio.html">portfolio</a>
+    <a href="./contact.html">contact</a>    
+    <div class="elsys_breaker "> </div>
+    </div>	   
+    <div id="main" class="content.class">        
+        {{#content.lead}}
+        <div class="lead {{class}}">
+          <div class="title">{{title}}</div>
+          <div class=text>{{{text}}}</div>
+        </div>
+        {{/content.lead}}
+        {{#longcontent}}
+        <div id=longcontent>
+        {{{longcontent.content}}}
+        </div>
+        {{/longcontent}}
+        <div id="sectionholder">
+        {{#content.sections}}
+        <div class="section {{class}}">
+          <div class="title">
+             <img src="./{{icon}}.svg" class=texticon />
+             <span>{{title}}</span>
+          </div>
+          <div class=text>{{{text}}}</div>
+          {{#links.0}}
+          <div class=link>
+          {{#links}}
+           <a  target="_blank" rel="noopener noreferrer" href="{{url}}">
+             <img src="./link.svg" class=texticon />
+             <span>{{text}}</span>
+           </a>
+          {{/links}}
+          </div>
+          {{/links.0}}
+          {{#images.0}}
+            <div class="image">              
+                {{#images}}
+                <details>
+                <summary><div>{{title}}</div><img src='{{image}}'/></summary>
+                <figure>
+                  <figcaption>{{caption}}</figcaption>
+                  <img src='{{image}}' />                  
+                </figure>                                
+                </details>
+                {{/images}}                              
+
+            </div>
+          {{/images.0}}
+
+        </div>
+        {{/content.sections}}
+        
+        </div>
+    </div>	   
+  </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "Ova To You",
+        "text": "A market research tool for the web, Android and iOs"
+    },
+   "sections":
+   [
+    {
+      "icon": "project",
+      "class": "w3",
+      "title": "project description",
+      "text": "Ova To You send ongoing surveys electronically to a large group of members of the public in South Africa and Northern Africa; they reward these respondents and provide detailed market results to their clients. <br> The backend software allows design and testing of new surveys, reporting on survey operations and final output of the results for analysis from any browser. <br> The three respondent systems (web based, Android and iOS) manage these surveys for the users allowing them to answer questions, take photographs and respond to questions about media clips and images."      
+    },
+    {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I replaced the previous unreliable software built on a legacy software stack with a full redesign and rewrite of the system on a modern software stack. <br>I was responsible for the design, software architecture and implementation of the back end systems, the web interface, android application and iOS application."        
+    },
+    {
+        "icon": "crane",
+        "class": "wf",    
+        "title": "technology",
+        "text": "The backend systems are built in Java using an Apache TOMCAT stack using Postgres to store data. The system is run and managed entirely on the Amazon elastic cloud. <br>The respondent software is developed as a webapp in HTML5 using a secured restful interface to the backend systems. Android and iOS application are built using the open-source cordova project for mobile development."        
+    },
+    
+    
+    {
+        "icon": "image",
+        "class": "wf",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the software.",
+        "images": [
+            {
+                "image":"otou1.png",
+                "title": "Back End",
+                "caption": "The home screen of the back end software used by Ova To You staff."
+            },
+            {
+                "image":"otou2.png",
+                "title": "Survey Designer",
+                "caption": "An example of the tools for configuring surveys."
+            },        
+            {
+                "image":"otou3.png",
+                "title": "Respondent Interface",
+                "caption": "Signing up to be a respondent on the mobile software."
+            }        
+        ]
+    }
+ ,
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software is in weekly use by thousands of respondents in Southern Africa. On going improvements to enhance functionality are in development."        
+    },
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Take a look at the web site or download the software from the mobile stores.",
+        "links": [
+            {
+                "text":"Ova To You on the Web",
+                "url":"https://www.ovatoyou.co.za"
+            },
+            {
+                "text":"Google Play Store",
+                "url":"http://play.google.com/store/apps/details?id=za.co.ovatoyou"
+            },
+            {
+                "text":"Apple Store",
+                "url":"https://itunes.apple.com/us/app/ovatoyou/id751171901?mt=8"
+            }
+        ]
+    }
+   ]
+  
+}

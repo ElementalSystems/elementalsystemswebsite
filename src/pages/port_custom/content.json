@@ -1,0 +1,31 @@
+{
+  "class": "std",
+  "lead":
+    {
+        "title": "Custom Tools For Organisations",
+        "text": "Tools written specifically to fill custom corporate and organisational needs."
+    },
+  "menu": [
+    {
+        "title": "IHG Planner",
+        "text": "A large scale human resources planner and tracking system for the IHG hotel group",
+        "page": "ihg",
+        "icon": "custom"
+    },    
+    {
+        "title": "FFSA Volunteer Control Software",
+        "text": "Logistical management for organising thousands of public volunteers",
+        "page": "FFSA",
+        "icon": "custom"
+    },    
+    {
+        "title": "Heartstyles",
+        "text": "A application designed to for personal development using the Heartstyles model.",
+        "page": "heartstyles",
+        "icon": "custom"
+    }
+  ]
+
+  
+  
+}

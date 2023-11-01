@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div id="top">
+    <div id="leftpanel">
+    <a href="./home.html" id=elsys_logo></a>    
+    <div class="elsys_breaker "> </div>
+    <a href="./about.html">about</a>
+    <a href="./portfolio.html">portfolio</a>
+    <a href="./contact.html">contact</a>    
+    <div class="elsys_breaker "> </div>
+    </div>	   
+    <div id="main" class="content.class">        
+        {{#content.lead}}
+        <div class="lead {{class}}">          
+          <div class="title">{{title}}</div>
+          <div class=text>{{text}}</div>          
+        </div>
+        {{/content.lead}}
+        <div id="menuholder">
+        {{#content.menu}}
+        <a class="menu {{class}}" href="./{{page}}.html">
+          <img src="./{{icon}}.svg"/>
+          <div>
+          <div class="title">{{title}}</div>
+          <div class=text>{{text}}</div>
+          </div>
+
+        </a>
+        {{/content.menu}}
+        
+        </div>
+    </div>	   
+  </div>
+  </body>
+</html>

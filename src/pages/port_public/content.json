@@ -1,0 +1,39 @@
+{
+  "class": "std",
+  "lead":
+    {
+        "title": "General Use Application Software",
+        "text": "Software used by the general public in the world currently."
+    },
+  "menu": [
+    {
+        "title": "STBB Direct",
+        "text": "A application used extensively by property buyer, sellers and agents for handling interactions with STBB, a large coonveyancing law firm.",
+        "page": "stbb",
+        "icon": "application"
+    },    
+    {
+        "title": "Store Master",
+        "text": "A full retail, warehousing and point of sale system for medium to large organisations.",
+        "page": "storemaster",
+        "icon": "application"
+    },
+    {
+        "title": "ECG Apptitude",
+        "text": "An reference and educational tool for cardiac medical students and specialists.",
+        "page": "ecg",
+        "icon": "application"
+    },
+    {
+        "title": "Ova To You",
+        "text": "A market resource tool that allow users to respond to questionaires for fun and prizes.",
+        "page": "ovatoyou",
+        "icon": "application"
+    }
+    
+
+  ]
+
+  
+  
+}

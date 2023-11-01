@@ -1,0 +1,83 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "Store Master",
+        "text": "A retail management and Point of Sale Application"
+    },
+   "sections":
+   [
+      {
+        "icon": "project",
+        "class": "w2",
+        "title": "project description",
+        "text": "Store Master is a mature retail product for managing multi-branch retail stores and warehouses.<br> It manages all aspects of stock control, debtors, creditors, ordering and multiple point of sale processes." 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I was the original architect and designer of the product which was developed and marketed by my company. After acheiving broad adoption in the African market I sold the software to a large support house. I am still involved with some aspects of the on going development as an advisor and lead programmer."
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "The application is written in c++ and runs in a Windows environment and uses a broad range of peripheral equipment, MS SQL is used as a primary data storage solution."        
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software has been in on going usage in Southern Africa for over 25 years, new versions and features are still released on a regular schedule.<br> Several hundred retail stores use the software each day to run all aspects of their business at store, head office and warehouse level."        
+    },    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the software.",
+        "images": [
+            {
+                "image":"sm2.png",
+                "title": "Opening Page",
+                "caption": "After login the (configurable) status overview with most key modules active."
+            },                 
+            {
+                "image":"sm1.png",
+                "title": "Sales Screen",
+                "caption": "A typical sale being processed at the till point."
+            },   
+            {
+                "image":"sm3.png",
+                "title": "Reporting",
+                "caption": "A typical configurable report showing drill down and filtering features."
+            },
+            {
+                "image":"sm4.png",
+                "title":"Screen Editor",
+                "caption": "An image showing how every screen can be formated flexibly to meet a clients exact needs. "
+            },
+            {
+                "image":"sm5.png",
+                "title": "Configuration",
+                "caption": "Detailed layered configuration settings that change the behaviour of the software."
+            }        
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w3",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"URS",
+                "url":"http://www.urs.co.za"
+            }
+        ]
+    }
+ 
+   ]
+  
+}

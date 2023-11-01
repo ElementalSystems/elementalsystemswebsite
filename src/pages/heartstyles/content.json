@@ -1,0 +1,93 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "Heartstyles",
+        "text": "A personal development tool for the digital age"
+    },
+   "sections":
+   [
+      {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "Heartstyles is a large company focussed on development of employees at both a personal and leadership level. They currently train and develops thousands of people a year using their well establish methodology."
+      },
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "The heartstyles application is the first attempt to expand the Heartstyles methodology into the digital realm. The software guides users through the heartstyles philosophy and has large educational modules. <br>Additionally it presents and explains the results of the surveys taken by the user as graphs and custom created video content.<br> The application encourages cultivation of the techniques and ideas via a private journal, daily ideas for reflection and the ongoing monitoring of actions to change your behaviour." 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I worked with polymorph on the development of the design and business ideas. I designed the software architecture and led the development team from the initial ideas until the second broad rollout of the software."
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "Backend services and secure storage are provided by AWS. The mobile application software is developed in Flutter."
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software is in daily use by hundredds of individuals. Development is ongoing in both scope and technology."        
+    },
+    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the software packages.",
+        "images": [
+            {
+                "image":"hs1.jpg",
+                "title": "Results display",
+                "caption": "Detailed drillable graphs of the heartstyles results."
+            },
+            {
+                "image":"hs2.jpg",
+                "title": "Effectiveness",
+                "caption": "The mobile application reproting on peer effectiveness scores."
+            },        
+            {
+                "image":"hs3.jpg",
+                "title": "Crossing Over Actions",
+                "caption": "Part of the process of formulating a crossing over action."
+            },
+            {
+                "image":"hs4.jpg",
+                "title":"Game Content",
+                "caption": "A sample of one of the games used to communicate heartstyles vocabulary and philosophy."
+            }
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w3",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"Heartstyles",
+                "url":"https://heartstyles.com/"
+            },
+            {
+                "text":"on Play Store",
+                "url":"https://play.google.com/store/apps/details?id=com.heartstyles.mobileapp"
+            },            
+            {
+                "text":"on Apple Store",
+                "url":"https://apps.apple.com/us/app/heartstyles/id1632211160"
+            }            
+        ]
+    }
+ 
+   ]
+  
+}

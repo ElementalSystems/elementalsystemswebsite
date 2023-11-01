@@ -1,0 +1,31 @@
+{
+  "class": "std",
+  "lead":
+    {
+        "title": "Games and Graphics",
+        "text": "Commercial and personal games and graphics projects."
+    },
+  "menu": [
+    {
+        "title": "Geomax",
+        "text": "A commercial, educational game developed for South African Learners by Papadi Games.",
+        "page": "geomax",
+        "icon": "games"
+    },    
+    {
+        "title": "FWIP",
+        "text": "A game of ups and downs- a short, indy, artsy, game.",
+        "page": "flip",
+        "icon": "games"
+    },
+    {
+      "title": "HTML5 Games and Graphics",
+      "text": "Several games and experiments developed for fun and competition.",
+      "page": "htmlgames",
+      "icon": "games"
+    }
+  ]
+
+  
+  
+}

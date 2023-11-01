@@ -1,0 +1,104 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "ECG Apptitude",
+        "text": "A specialist application for cardiac education and practice"
+    },
+   "sections":
+   [
+      {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "The UCT Cardiac Clinic is the oldest dedicated clinical cardiology unit in sub-Saharan Africa, and is internationally respected as a leading cardiac center for its  academic excellence  and outstanding  tertiary and quaternary cardiology care, clinical research conduct, and post graduate clinical and clinical-research training."
+      },
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "The application software puts easy to use accurate information in the hands of cardiac professionals and students.<br> The content is intended for use as both a way to further your knowledge and a reference on the job in six languages. <br> Backend authoring tools support multiple languages, structure, image and video content. All content is automatcially refrenced and indexed. <br>A Mobile application allows off-line access to reference materials, notes and classes." 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I designed and implemented the authoring and mobile tools for all apsects of the project. "
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "Backend storage is provided by Google Firebase. Authoring tools are coded in angular for the browser. Mobile device software is developed with Ionic for Android and iOS devices."        
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software is in daily use by more than ten thousand specilist doctors and students."        
+    },
+    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the software.",
+        "images": [
+            {
+                "image":"ecg1.jpg",
+                "title": "Home Screen",
+                "caption": "The basic sections and presentation of the mobile application."
+            },
+            {
+                "image":"ecg2.jpg",
+                "title": "Index",
+                "caption": "The searchable multi-level index system in use."
+            },        
+            {
+                "image":"ecg3.jpg",
+                "title": "Contents Menu",
+                "caption": "The quick access multi-tiered content menu"
+            },
+            {
+                "image":"ecg4.jpg",
+                "title":"Content Displayed",
+                "caption": "A typical page showing foldable sections, illustrations and formatted text."
+            },
+            {
+                "image":"ecg5.png",
+                "title": "Author's Tools",
+                "caption": "The side by side editor showing markdown and final presentation."
+            },
+            {
+                "image":"ecg6.png",
+                "title": "Author's Media",
+                "caption": "Media library available to add images and videos to pages."
+            }
+        
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"UCT Cardiac Clinic",
+                "url":"https://health.uct.ac.za/department-medicine/division/cardiology"
+            },
+            {
+                "text":"Google Play Store",
+                "url":"https://play.google.com/store/apps/details?id=org.appenberg.ecgapptitude"
+            },
+            {
+                "text":"Apple Store",
+                "url":"https://apps.apple.com/za/app/ecg-apptitude/id1241749312"
+            }
+        ]
+    }
+ 
+   ]
+  
+}

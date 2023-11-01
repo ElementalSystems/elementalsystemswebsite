@@ -1,0 +1,32 @@
+{
+  "class": "std",
+  "lead":
+    {
+        "title": "about",
+        "text": "I am an experienced software designer and programmer who contracts privately on small technical projects.<br>I develop across a broad range of technologies and languages including web applications, mobile application development and desktop application software. The projects I take on are technically challenging, socially constructive and can be completed by a small dedicated team.<br> I am always looking for exciting new projects with which to get involved for fun or profit."
+    },
+   "sections":
+   [
+    {
+      "title": "Stack Overflow Profile",
+      "icon":"stackoverflow",  
+      "class": "w2",      
+      "text": "Stack Overflow is a Q & A format site where programmers exchange technical information, you can take a look at the technical solutions I have proposed to a variety of real world problems.",
+      "links": [{
+        "text": "elementalsystems on Stack Overflow",
+        "url": "https://stackoverflow.com/users/98636/elemental"
+      }]
+    },
+    {
+        "title": "GitHub Repositories ",
+        "icon":"github",  
+        "class": "w2",            
+        "text": "GitHub is a source control system for sharing and publishing code, all my publicly accessible code is published here. If you have a development background take a look at the kind of work I can do.",
+        "links": [{
+          "text": "elementalsystems on github",
+          "url": "https://github.com/ElementalSystems"
+        }]
+    }
+   ]
+  
+}

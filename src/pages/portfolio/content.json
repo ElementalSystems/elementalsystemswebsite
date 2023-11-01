@@ -1,0 +1,39 @@
+{
+  "class": "std",
+  "lead":
+    {
+        "title": "Portfolio",
+        "text": "Some examples of the projects I have completed over the years, for profit and fun."
+    },
+  "menu": [
+    {
+        "title": "General Use Application Software",
+        "text": "Examples of applications currently in use by members of the general public.",
+        "page": "port_public",
+        "icon": "application"
+    },
+    {
+        "title": "Custom Tools For Organisations",
+        "text": "Examples of applications used within custom contexts for specific functionality in the corporate and NGO worlds.",
+        "page": "port_custom",
+        "icon": "custom"
+    },
+    {
+        "title": "Technical Tooling",
+        "text": "Specialised tools used (mostly by other software) to achieve hardware and systems integration goals.",
+        "page": "port_tech",
+        "icon": "technical"
+    },
+    {
+        "title": "Games and Graphics",
+        "text": "Display and graphical projects whose intention is to educate, entertain and amuse.",
+        "page": "port_games",
+        "icon": "games"
+    }
+    
+
+  ]
+
+  
+  
+}

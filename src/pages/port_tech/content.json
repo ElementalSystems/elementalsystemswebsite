@@ -1,0 +1,25 @@
+{
+  "class": "std",
+  "lead":
+    {
+        "title": "Technical Tooling",
+        "text": "Specialised tools used (mostly by other software) to achieve hardware and systems integration goals."
+    },
+  "menu": [
+    {
+        "title": "PalmBridge",
+        "text": "A easy platform to access optical scanner software and advanced navigation facilities on Android devices.",
+        "page": "palmbridge",
+        "icon": "technical"
+    },    
+    {
+        "title": "Vumi Voice",
+        "text": "A techical custom sub-system to Vumi communication services to voice lines.",
+        "page": "vumivoice",
+        "icon": "technical"
+    }  
+  ]
+
+  
+  
+}

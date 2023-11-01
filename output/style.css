@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+}
+
+ 
+ #top {
+    display:flex;
+    min-height: 90vh;
+ }
+
+ #leftpanel {
+    flex: 0 0 20rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+ }
+
+ #leftpanel a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #666;
+ }
+
+ #elsys_logo {
+    width: 10rem;
+    height: 10rem;
+    background-image: url(./logo.png);
+    background-size: 100%;
+}
+
+ .elsys_breaker {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 3px;
+    background-color: #ccc;
+    border-radius: 2px;    
+}
+
+br {
+  content: "A" !important;
+  display: block !important;
+  margin-bottom: .5em !important;
+}
+
+#main {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    min-height: 100%;
+    padding: 1rem;
+ }
+
+.lead {
+  margin-bottom: 1rem;
+}
+
+.lead .title {
+    font-size: 2rem;    
+}
+
+
+#sectionholder {
+    display:flex;
+    flex-flow: row wrap;
+    gap: .5rem 0rem;
+    align-items: start;
+    justify-content: start;    
+}
+
+.section {
+    padding: .1rem .5rem;    
+    border: 1px #CCC solid;
+    border-radius: .5rem;
+    margin-right: .5rem;
+  
+}
+
+.section.wf {
+  flex: 1 0 100%
+}
+
+.section.w3 {
+  flex: 1 0 min(30rem,100%);
+}
+.section.w2 {
+  flex: 1 0 min(20rem,100%);
+}
+.section.w1 {
+  flex: 1 0 10rem;
+}
+
+.section .title {
+    font-weight: bold;
+    padding-bottom: .5em;
+    border-bottom: 1px #CCC solid;
+}
+
+.section .text {
+   margin-top:.5rem;
+   font-size: .75rem;    
+}
+
+.section .link {
+    padding:1rem 0rem;
+    display: flex;
+    justify-content: space-between;    
+    align-items: start;   
+    flex-flow: row wrap;
+    gap: .25rem .25rem;
+}
+
+.section .link a {  
+    flex: 1 0;
+    text-decoration: none;
+    border: 1px #ccc solid;
+    border-radius: .5rem;
+    font-weight: bold;
+    color: #666;
+    padding:0rem 1rem .5rem;
+    font-variant: small-caps;
+}
+
+.section .link a:hover {
+  color: #222;
+  background-color: #CCC;
+}
+
+.texticon {
+  position: relative;
+  padding-right: .25rem;
+  top: .5em;
+  width:1.5em;
+  height: 1.5em;
+}
+
+#menuholder {
+  display:flex;
+  flex-flow: column;
+  gap: .5rem .5rem;
+  align-items: stretch;
+  justify-content: start;    
+}
+
+a.menu {
+  display: flex;
+  flex-direction: row;
+
+  color: #444;
+  text-decoration: none;
+  border: 1px #ccc solid;
+  padding: 1rem;
+  border-radius: .5rem;  
+}
+
+a.menu:hover {
+  border: 1px #888 solid;
+}
+
+
+a.menu .title {
+  font-weight: bold;    
+}
+
+a.menu .text {
+ margin-top:.2rem;
+ font-size: .75rem;    
+}
+
+a.menu img {
+  position: relative;
+  top: .25rem;
+  margin-right: .5rem;
+  width:3em;
+  height: 3em;
+  opacity:.6;
+}
+
+a.menu:hover img {
+  opacity:1;
+}
+
+
+.section .image {
+  padding:1rem 0rem;
+  display: flex;
+  justify-content: space-evenly; 
+  align-content: center;
+  align-items: start;   
+  flex-flow: row wrap;
+
+  gap: .25rem .25rem;
+}
+
+
+.section .image details {  
+  flex: 0 0 10rem;  
+  border: 1px #ccc solid;
+  border-radius: .5rem;
+  font-weight: bold;
+  color: #666;
+  padding:.5rem;  
+}
+
+details summary {
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+summary div {  
+  flex: 1 0 7rem;
+}
+
+summary img {
+  height:3rem;
+  width:3rem;
+  object-fit: contain;
+}
+
+details[open] summary img {
+  display:none;
+}
+
+
+
+
+details figure img {
+  max-width: 50vw;
+  max-height: 75vh;
+}
+
+details figure figcaption {
+  font-weight: lighter;
+  font-size: 75%;
+  padding-bottom: .5rem;
+}
+
+
+
+@media only screen and (max-width: 50em) {
+  #top {
+    flex-direction: column;
+  }     
+  #leftpanel {
+    flex-direction: row;
+    flex: 0 0 3rem;
+    
+  }
+  .elsys_breaker {
+    display:none;
+  }
+  #elsys_logo {
+    width: 3rem;
+    height: 3rem;    
+  }
+  #leftpanel a {
+    font-size: 1rem;    
+ }
+
+
+  
+}

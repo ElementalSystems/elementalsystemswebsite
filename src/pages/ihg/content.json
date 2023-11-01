@@ -1,0 +1,90 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "IHG Planner",
+        "text": "A human resources manangement tool"
+    },
+   "sections":
+   [
+      {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "The International Hotels Group runs over 6000 hotels in almost every territory and timezone. They include major hotel brands including InterContinental, Crowne Plaza and Holiday Inn."
+      },
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "The application software is used to analyse the operations and efficiency of the human resources in the hotels.<br>It includes long term resource planning and tools to reflect on past uses of available resource as well as day to day shift planning and resource allocation. <br>Two separate interacting tools exist for different levels of the business, from planning to management to everyday operations." 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I worked with Sudo to create and support the tools. I am the designer, architect and implementor of the front end application software."
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "Backend services are provided by Google Firebase and Google Cloud Platform. <br> All services are coded in typescript.<br> The front end is developed for any browser using Angular and primeNG for visual effects."        
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software is in daily use hundreds of hotels consisting of thousands of active daily users. The project is currently rolling out to the remaining territories. New development is ongoing including a full clocking system for service employees and multi-lingual operations."        
+    },
+    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the software packages.",
+        "images": [
+            {
+                "image":"ihg1.png",
+                "title": "Hotel Setup",
+                "caption": "The basic outline of how to set up a standard hotel including all details from the size of restaurants and bars to how old the plumbing is."
+            },
+            {
+                "image":"ihg2.png",
+                "title": "Reporting",
+                "caption": "A widely used report showing employee requirements and current employment. As shown the system allows deep enquiry into various departments and job roles."
+            },        
+            {
+                "image":"ihg3.png",
+                "title": "Help System",
+                "caption": "The system includes extensive documentation on both software use and hotel policy both as documents and link to educational systems. Most douments are available in multiple languages."
+            },
+            {
+                "image":"ihg4.png",
+                "title":"Shift Planning",
+                "caption": "Layout of the next weeks shifts across all staff for a department allows the manages to easily reschedule and plan their weeks."
+            },
+            {
+                "image":"ihg5.png",
+                "title": "Management Control",
+                "caption": "A look at the current status of planning across departments to see what planning is outstanding."
+            }
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"IHG Hotel Group",
+                "url":"https://www.ihg.com/hotels/gb/en/reservation"
+            }
+        ]
+    }
+ 
+   ]
+  
+}
