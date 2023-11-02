@@ -1,0 +1,85 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "FFSA Planner",
+        "text": "A tool to organise thousands of volunteers"
+    },
+   "sections":
+   [
+      {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "Food Foward South Africa are an NGO interested in food security and reduction of food waste."
+      },
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "Food Forward South Africa organises large scale events in multiple locations through out the country; efficiently getting members of the public to the right place at the right time required technological support.The software allows members of the public to register their details and choose specific shifts at locations nearby for wihch to volunteer their help. It allows them to self-organise into teams with team leaders, sends reminders to people in the days leading up to the event, provides mapping features to ensure they get to the location and reports on actual attendance." 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I was contracted by FFSA to identify the keys needs, design software interfaces, create the software architecture and storage solutions and unltimately to do the final implementation of the project."
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "The application is written in java and runs on a standard Apache-Tomcat server stack backed by postgres-SQL data storage. The system is designed for large numbers of concurrent users and supports complex vackend reporting. <br> The volunter software is fully responsive and displays and functions well on any screen size and on very low end devices."        
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software was used for many large projects organised between 2015 and 2018."        
+    },
+    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the software packages.",
+        "images": [
+            {
+                "image":"ffsa1.png",
+                "title": "Registration",
+                "caption": "Screen for a member of the public to sign in."
+            },
+            {
+                "image":"ffsa2.png",
+                "title": "Home Screen",
+                "caption": "Initial home screen of the system for a volunteer."
+            },        
+            {
+                "image":"ffsa3.png",
+                "title": "Event Details",
+                "caption": "Detail of a volunteer event."
+            },
+            {
+                "image":"ffsa4.png",
+                "title":"Back end Report",
+                "caption": "A back end report showing which events need volunteers."
+            }
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"FFSA Site",
+                "url":"https://foodforwardsa.org/"
+            }
+        ]
+    }
+ 
+   ]
+  
+}
