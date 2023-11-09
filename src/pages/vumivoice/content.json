@@ -1,0 +1,59 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "Vumi Voice",
+        "text": "A technical extension to the Vumi System to allow voice transport"
+    },
+   "sections":
+   [
+    {
+      "icon": "project",
+      "class": "w3",
+      "title": "project description",
+      "text": "Vumi is a large scale system used to communicate across a broad range of transports (Twitter / sms / USSD etc) for various commercial and NGO clients through out Africa. The voice module allows the system to  read out the content of messages in voice and accept responses from a standard tone dial phone - this can be acheived using text to voice technology or by making recordings. It can both accept incoming calls and initiate outgoing calls to standard or mobile phone numbers."      
+    },
+    {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I was approached as a technical specialist to integrate standard low-level voice and SIP control software (freeswitch) with the current Vumi Stack."        
+    },
+    {
+        "icon": "crane",
+        "class": "wf",    
+        "title": "technology",
+        "text": "The voice transport software is written in Python using twisted to communicate with the sockets controls interface in the Freeswitch ESL module. It also addresses Text to voice system using direct operating system execution or remote control of a separate host."        
+    },    
+    
+    {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "Praekelt was both an NGO and international commercial development house that is reponsible for Vumi development among several other socially responsible projects. The NGO aspects have been renamed Reach."
+      },
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The voice transport is live on the Vumi network and currently in use by several large projects."        
+    },
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Take a look at the web sites",
+        "links": [
+            {
+                "text":"Praekelt Foundation",
+                "url":"https://en.wikipedia.org/wiki/Praekelt_Foundation"
+            },
+            {
+                "text":"Reach Digital Health",
+                "url":"https://www.reachdigitalhealth.org/"
+            }
+        ]
+    }
+   ]
+  
+}

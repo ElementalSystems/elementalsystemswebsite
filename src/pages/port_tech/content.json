@@ -7,6 +7,12 @@
     },
   "menu": [
     {
+      "title": "CORE -  The Economy",
+      "text": "Workflow to prepare a famous open source textbook as mobile application.",
+      "page": "core",
+      "icon": "technical"
+    },    
+    {
         "title": "PalmBridge",
         "text": "A easy platform to access optical scanner software and advanced navigation facilities on Android devices.",
         "page": "palmbridge",

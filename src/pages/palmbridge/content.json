@@ -1,0 +1,55 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "PalmBridge",
+        "text": "A interface between android software tools"
+    },
+   "sections":
+   [
+    {
+      "icon": "project",
+      "class": "w3",
+      "title": "project description",
+      "text": "VSC smart supply chains runs a custom flexible package to help its clients manage logistics projects. Palmbridge is a android application that connects high end optical scanning libraries and complex navigation software."
+    },
+    {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I was approached as a technical specialist to integrate these systems; I designed and specified the interactions between software and implemented the application."        
+    },
+    {
+        "icon": "crane",
+        "class": "wf",    
+        "title": "technology",
+        "text": "The software is a standard Java Android application including some C libraries for advanced scanning using the NDK."        
+    },    
+    
+    {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "VSC build software to support complex logics networks - integrating navigation, IoT tools and warehousing services."
+      },
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "PalmBridge is in use but hundreds of drivers and warehouse users to assist with their jobs."        
+    },
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Take a look at the web sites",
+        "links": [
+            {
+                "text":"VSC Web Site",
+                "url":"https://vscsolutions.co.za/"
+            }
+        ]
+    }
+   ]
+  
+}
