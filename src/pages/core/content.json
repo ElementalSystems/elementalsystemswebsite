@@ -1,0 +1,63 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "CORE The Economy",
+        "text": "A modern open source basic economics textbook"
+    },
+   "sections":
+   [
+    {
+      "icon": "project",
+      "class": "w3",
+      "title": "project description",
+      "text": "The Economy is a opens ource textbook developed by CORE. This project's intent is to create stand alone Android and iOS applications to make the book available to students offline."
+    },
+    {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I was approached as a technical specialist to create a workflow and implement technology to publish the content as a mobile application."        
+    },
+    {
+        "icon": "crane",
+        "class": "wf",    
+        "title": "technology",
+        "text": "The project uses node and cordova to build the html content into working signed applications."        
+    },    
+    
+    {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "Electric Book Works is an award winning design studio that specialises in the design and publications of physical and digital books."
+      },
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "With over 10 000 downloads on the play store the application is in daily use around the world."        
+    },
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Take a look at the web sites",
+        "links": [
+            {
+                "text":"Electric Book Works",
+                "url":"https://electricbookworks.com/"
+            },
+            {
+                "text":"On Google Play Store",
+                "url":"https://play.google.com/store/apps/details?id=com.fireandlion.core.theeconomy"
+            },            
+            {
+                "text":"On Apple Books",
+                "url":"https://books.apple.com/us/book/the-economy/id1456248159"
+            }
+        ]
+    }
+   ]
+  
+}
