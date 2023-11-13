@@ -1,0 +1,78 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "Geomax",
+        "text": "A commercial, educational games about geometry aimed at grade 7 to 9 learners in South Africa for web, iOS and Android"
+    },
+   "sections":
+   [
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "Geomax was conceived, designed and created by Papadi Games as a for profit educational game. Papadi games is a coalition between AIM and Pearson International to develop gaming content for the South African educational market. Geomax is the first game created by this collaboration to  address a need in mathematics education in the late primary school years - basic euclidean geometry.<br>The game is intended to be fun and enguaging and in the spirit of similair games played by the age group in their leasure time; additionally it must cover broad conceptual ground with regards to basic geometry and problem solving while specifically visiting the learning outcomes of the South African education system. " 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I was part owner, designer, software architect and developer for the game."        
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "The game is written in vanilla Javascript; backend services are provided by firebase; iOS and Android wrapping is done using the Apache Cordova project."        
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software was tested and used broadly in 2015; currently it is being updated for release to new devices."        
+    },
+    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the game.",
+        "images": [
+            {
+                "image":"geomax1.png",
+                "title": "Home Screen",
+                "caption": "Opening introduction to the game"
+            },
+            {
+                "image":"geomax2.png",
+                "title": "A Puzzle",
+                "caption": "One of the puzzling sections of the game."
+            },        
+            {
+                "image":"geomax3.png",
+                "title": "Learning summary",
+                "caption": "A tool to reinforce leanring at the end of a level."
+            }
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"Game on the Web",
+                "url":"https://playgeomax.com/demo/html/index.html"
+            },
+            {
+                "text":"You Tube Video",
+                "url":"https://www.youtube.com/watch?v=G5xBkaBB0Ng"
+            }
+        ]
+    }
+ 
+   ]
+  
+}
