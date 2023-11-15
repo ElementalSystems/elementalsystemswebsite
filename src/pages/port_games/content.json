@@ -13,15 +13,15 @@
         "icon": "games"
     },    
     {
-        "title": "FWIP",
-        "text": "A game of ups and downs- a short, indy, artsy, game.",
-        "page": "flip",
+        "title": "JS13k Games",
+        "text": "A 13kb javascript game contest",
+        "page": "js13k",
         "icon": "games"
     },
     {
-      "title": "HTML5 Games and Graphics",
-      "text": "Several games and experiments developed for fun and competition.",
-      "page": "htmlgames",
+      "title": "Twelve Games a Year",
+      "text": "Twelve original short games developed over a year.",
+      "page": "twelvegames",
       "icon": "games"
     }
   ]

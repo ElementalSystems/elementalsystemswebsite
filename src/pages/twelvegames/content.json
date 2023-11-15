@@ -1,0 +1,84 @@
+{
+  "class": "std",
+  "lead":
+    {        
+        "title": "Twelve Games a Year",
+        "text": "A graphics and games project for 2015"
+    },
+   "sections":
+   [
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "In 2015 I wanted to develop my plain javascript skills and so started the blog and development process to design and implement 12 original games in a year. " 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I designed, did artwork, created architeture and implementation the code on all the games."        
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "The whole pointof the exercise was to use basic browser technology, along the way I learned a few libraries and tools."        
+    },
+        
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images of the games.",
+        "images": [
+            {
+                "image":"twelve1.png",
+                "title": "Phaseball",
+                "caption": "A kind of a physics puzzle game with steampunk aesthetics."
+            },
+            {
+                "image":"twelve2.png",
+                "title": "Quicker Than Hanging",
+                "caption": "A game a little like hangman, but with some extra info."
+            },        
+            {
+                "image":"twelve3.png",
+                "title": "TextFlight",
+                "caption": "An ascii art game using 3D projections."
+            },
+            {
+                "image":"twelve4.png",
+                "title":"O",
+                "caption": "A language-free puzzle game build in 3D"
+            }
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Here are some links to play the games",
+        "links": [
+            {
+                "text":"Original Blog",
+                "url":"https://twelvegamesayear.blogspot.com/"
+            },
+            {
+                "text":"PhaseBall",
+                "url":"https://elementalsystems.github.io/PhaseBall/"
+            },
+            {
+                "text":"TextFlight",
+                "url":"https://elementalsystems.github.io/TextFlight/"
+            },
+            {
+                "text":"O",
+                "url":"https://elementalsystems.github.io/o/"
+            }
+        ]
+    }
+ 
+   ]
+  
+}
