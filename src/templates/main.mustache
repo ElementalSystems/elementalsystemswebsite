@@ -6,16 +6,17 @@
     <script src="index.js"></script>
     <title>{{page.title}}</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/x-icon" href="./favicon.png">
   </head>
   <body>
   <div id="top">
     <div id="leftpanel">
-    <a href="./home.html" id=elsys_logo></a>    
-    <div class="elsys_breaker "> </div>
-    <a href="./about.html">about</a>
-    <a href="./portfolio.html">portfolio</a>
-    <a href="./contact.html">contact</a>    
-    <div class="elsys_breaker "> </div>
+      <a href="./home.html" id=elsys_logo></a>    
+      <div class="elsys_breaker "> </div>
+      <a href="./about.html">about</a>
+      <a href="./portfolio.html">portfolio</a>
+      <a href="./contact.html">contact</a>    
+      <div class="elsys_breaker "> </div>
     </div>	   
     <div id="main" class="content.class">        
         {{#content.lead}}
@@ -66,7 +67,10 @@
         {{/content.sections}}
         
         </div>
-    </div>	   
+    </div>	       
   </div>
+  {{#content.back}}        
+  <a id=backbutton><img src="./back.svg"/  onclick="history.back()"></a>
+  {{/content.back}}
   </body>
 </html>

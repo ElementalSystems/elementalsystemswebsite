@@ -26,6 +26,13 @@ body {
     color: #666;
  }
 
+ #leftpanel a:hover {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #a84e1a;
+}
+
+
  #elsys_logo {
     width: 10rem;
     height: 10rem;
@@ -38,7 +45,7 @@ body {
     margin-bottom: 10px;
     width: 200px;
     height: 3px;
-    background-color: #ccc;
+    background-color: #a84e1a;
     border-radius: 2px;    
 }
 
@@ -75,8 +82,9 @@ br {
 }
 
 .section {
-    padding: .1rem .5rem;    
-    border: 1px #CCC solid;
+    padding: 0;    
+
+    border: 1px #a84e1a solid;
     border-radius: .5rem;
     margin-right: .5rem;
   
@@ -98,17 +106,19 @@ br {
 
 .section .title {
     font-weight: bold;
-    padding-bottom: .5em;
-    border-bottom: 1px #CCC solid;
+    border-bottom: 1px #a84e1a solid;
+    border-radius: .4rem .4rem 0 0;
+    background:linear-gradient(#a84e1a80, #a84e1a10);
+    padding: 0 1rem .5rem 1rem;
 }
 
 .section .text {
-   margin-top:.5rem;
-   font-size: .75rem;    
+   font-size: .8rem;    
+   padding: .5rem 1rem .5rem 1rem;
 }
 
-.section .link {
-    padding:1rem 0rem;
+.section .link {    
+    padding: .5rem 1rem .5rem 1rem;
     display: flex;
     justify-content: space-between;    
     align-items: start;   
@@ -154,13 +164,13 @@ a.menu {
 
   color: #444;
   text-decoration: none;
-  border: 1px #ccc solid;
+  border: 1px #a84e1aA0 solid;
   padding: 1rem;
-  border-radius: .5rem;  
+  border-radius: .5rem;    
 }
 
 a.menu:hover {
-  border: 1px #888 solid;
+  border: 1px #a84e1a solid;
 }
 
 
@@ -244,6 +254,15 @@ details figure figcaption {
   padding-bottom: .5rem;
 }
 
+#backbutton {
+  position:absolute;
+  top:1rem;
+  right:1rem;
+  width:5rem;
+  height:5rem;
+  cursor: pointer;
+}
+
 
 
 @media only screen and (max-width: 50em) {
@@ -253,7 +272,7 @@ details figure figcaption {
   #leftpanel {
     flex-direction: row;
     flex: 0 0 3rem;
-    
+    margin-right: 3rem;
   }
   .elsys_breaker {
     display:none;
@@ -265,6 +284,13 @@ details figure figcaption {
   #leftpanel a {
     font-size: 1rem;    
  }
+ #backbutton {
+  top:0rem;
+  right:0rem;
+  height: 4rem;
+  width: 4rem;
+ }
+
 
 
   

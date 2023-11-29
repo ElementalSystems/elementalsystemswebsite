@@ -6,6 +6,8 @@
     <script src="index.js"></script>
     <title>{{page.title}}</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+
   </head>
   <body>
   <div id="top">
@@ -39,5 +41,8 @@
         </div>
     </div>	   
   </div>
+   {{#content.back}}        
+  <a id=backbutton><img src="./back.svg"/  onclick="history.back()"></a>
+  {{/content.back}}
   </body>
 </html>

@@ -1,5 +1,6 @@
 {
   "class": "std",
+  "back": "yes",
   "lead":
     {        
         "title": "IHG Planner",
