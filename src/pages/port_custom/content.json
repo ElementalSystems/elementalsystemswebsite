@@ -24,6 +24,12 @@
         "text": "A application designed to for personal development using the Heartstyles model.",
         "page": "heartstyles",
         "icon": "custom"
+    },    
+    {
+        "title": "Partnership Acceptances",
+        "text": "An application to faciliate bridging finance among proerty traders and agents.",
+        "page": "pa",
+        "icon": "custom"
     }
   ]
 

@@ -1,0 +1,10 @@
+{
+  "class": "std",
+  "back": "yes",
+  "lead":
+    {
+        "title": "The Joel Test",
+        "text": "Joel Spolsky wrote a simple test to evaluate your software provider in 2000 - these questions are still central to the business today."
+    }
+  
+}

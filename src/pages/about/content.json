@@ -26,6 +26,17 @@
           "text": "elementalsystems on github",
           "url": "https://github.com/ElementalSystems"
         }]
+    },
+    {
+        "title": "Joel's 12 Questions",
+        "icon":"questions",  
+        "class": "w2",            
+        "text": "Joel Spolsky posed the famous 'Joel Test' consisting of 12 question you should ask a software house before contracting them. This is my response to those questions.",
+        "links": [{
+          "text": "elementalsystems responses to the 'Test'",
+          "url": "./joelstest.html",
+          "internal": "true"
+        }]
     }
    ]
   

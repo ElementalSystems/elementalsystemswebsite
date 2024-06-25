@@ -41,10 +41,18 @@
           {{#links.0}}
           <div class=link>
           {{#links}}
+           {{^internal}}
            <a  target="_blank" rel="noopener noreferrer" href="{{url}}">
              <img src="./link.svg" class=texticon />
              <span>{{text}}</span>
            </a>
+           {{/internal}}
+           {{#internal}}
+           <a  href="{{url}}">
+             <img src="./link.svg" class=texticon />
+             <span>{{text}}</span>
+           </a>
+           {{/internal}}
           {{/links}}
           </div>
           {{/links.0}}

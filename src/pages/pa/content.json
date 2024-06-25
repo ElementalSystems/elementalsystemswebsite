@@ -1,0 +1,81 @@
+{
+  "class": "std",
+  "back": "yes",
+  "lead":
+    {        
+        "title": "Partnership Acceptances",
+        "text": "A tool to facilitate bridging finance"
+    },
+   "sections":
+   [
+      {
+        "icon": "client",
+        "class": "w1",
+        "title": "client",
+        "text": "Partnership Acceptances is a large player in the South African bridging finance market. They provides bridging finance for property transactions to buyers, sellers and agents. "
+      },
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "The project is design to provide an on-line, efficient and easy to use interface to apply and monitor bridging finance commitments. The software must handle the uploading of documentation and secure storage of legal documents as well as the generation of pdf for signature and legal purposes." 
+      },
+      {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I worked with polymorph on the development of the design, implementation and business ideas. I was the software architecture and led the development team from the initial ideation until the successful rollout of the software."
+      },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "Backend services, lambdas, authentication and secure storage are provided by AWS. The web front end is an ionic angular single page application."
+    },
+    
+    {
+        "icon": "time",
+        "class": "w1",      
+        "title": "current status",
+        "text": "The software is in daily use to manage all aspects of the client's core business. "        
+    },
+    
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images showing the look and layout of the web software.",
+        "images": [
+            {
+                "image":"pa1.png",
+                "title": "Home Screen",
+                "caption": "Status of current open loans for a user."
+            },
+            {
+                "image":"pa2.png",
+                "title": "Application",
+                "caption": "Detailed interface with document upload capability used when applying for finance."
+            },        
+            {
+                "image":"pa3.png",
+                "title": "Rewards",
+                "caption": "Details of rewards program and progress for a user."
+            }            
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w3",      
+        "title": "on the web",
+        "text": "Here are some external links regarding the software",
+        "links": [
+            {
+                "text":"Partnership Acceptances",
+                "url":"https://www.partnershipacceptances.com/home"
+            }            
+        ]
+    }
+ 
+   ]
+  
+}
