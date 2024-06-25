@@ -105,7 +105,7 @@ function addContext(dir, context) {
 
 function copyAssets() {
   console.log("Starting Asset Copy");
-  fs.copySync("src/assets", "output", {
+  fs.copySync("src/assets", "docs", {
     recursive: true
   })
   console.log("Assets Copied");
@@ -128,7 +128,7 @@ function buildPage(base, outname) {
     let output = mustache.render(template, base);
     //console.log(output);
 
-    fs.writeFileSync('output/' + outname + ".html", output);
+    fs.writeFileSync('docs/' + outname + ".html", output);
     console.log("Generated page " + outname);
   } catch (e) {
     console.log("ERROR: " + e.toString()+" while processing "+outname);
