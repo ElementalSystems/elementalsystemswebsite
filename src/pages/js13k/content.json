@@ -1,0 +1,84 @@
+{
+  "class": "std",
+  "back": "yes",
+  "lead":
+    {        
+        "title": "JS13k Games",
+        "text": "A yearly contest for very small javascript games."
+    },
+   "sections":
+   [
+      {
+        "icon": "project",
+        "class": "w3",
+        "title": "project description",
+        "text": "JS13k Games is a yearly contest which requires contestants to make very small games in Javascript which run in the browser. The entire source and asset package must be less than 13kb - a difficult challenge. The contest runs for 30 days in each year in September." 
+      },
+        {
+        "icon": "role",
+        "class": "w2",          
+        "title": "my role",
+        "text": "I designed, did artwork, created architeture and implemented the code on all the games entered in this contest."        
+    },
+    {
+        "icon": "crane",
+        "class": "w2",    
+        "title": "technology",
+        "text": "As required by the rules only Javascript and native browser capabilities are used. Due to the size liitations no grahics, physics or other upport libraries are practical."        
+    }, 
+    {
+        "icon": "image",
+        "class": "w3",      
+        "title": "images",
+        "text": "Some images of the games.",
+        "images": [
+            {
+                "image":"js13k2.png",
+                "title": "Cargo-72",
+                "caption": "An ascii art adventure about an alien invasion"
+            },
+            {
+                "image":"js13k1.png",
+                "title": "Complicit",
+                "caption": "A vertical scrolling shooter with a twist."
+            },        
+            {
+                "image":"js13k3.png",
+                "title": "The Lost Packets",
+                "caption": "An puzzle with a adjustable board."
+            },
+            {
+                "image":"js13k4.png",
+                "title":"Slowed Doa Run",
+                "caption": "A slow and elengant runner"
+            }
+        ]
+    },    
+    {
+        "icon": "web",
+        "class": "w1",      
+        "title": "on the web",
+        "text": "Here are some links to play the games and see the judge's responses",
+        "links": [
+            {
+                "text":"Cargo-72 - a ascii art adventure game",
+                "url":"https://js13kgames.com/entries/cargo-72"
+            },
+            {
+                "text":"Complicit - Bullet hell with a twist",
+                "url":"https://js13kgames.com/entries/complicit"
+            },
+            {
+                "text":"Lost Packets - a puzzle game",
+                "url":"https://js13kgames.com/entries/the-lost-packets"
+            },
+            {
+                "text":"Slow Doa Run - A slow endless runner.",
+                "url":"https://js13kgames.com/entries/slowed-dao-run"
+            }
+        ]
+    }
+ 
+   ]
+  
+}
