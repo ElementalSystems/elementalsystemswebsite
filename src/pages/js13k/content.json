@@ -33,12 +33,12 @@
         "text": "Some images of the games.",
         "images": [
             {
-                "image":"js13k1.png",
+                "image":"js13k2.png",
                 "title": "Cargo-72",
                 "caption": "An ascii art adventure about an alien invasion"
             },
             {
-                "image":"js13k2.png",
+                "image":"js13k1.png",
                 "title": "Complicit",
                 "caption": "A vertical scrolling shooter with a twist."
             },        
