@@ -18,13 +18,13 @@
         "icon": "role",
         "class": "w2",          
         "title": "my role",
-        "text": "I designed, did artwork, created architeture and implementation the code on all the games."        
+        "text": "I designed, did artwork, created architeture and implementation on all the games."        
     },
     {
         "icon": "crane",
         "class": "w2",    
         "title": "technology",
-        "text": "The whole pointof the exercise was to use basic browser technology, along the way I learned a few libraries and tools."        
+        "text": "The whole point of the exercise was to use basic browser technology, along the way I learned a few libraries and tools."        
     },
         
     {
