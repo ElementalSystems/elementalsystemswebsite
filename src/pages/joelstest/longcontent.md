@@ -28,9 +28,9 @@ Yes, we use up to date hardware, software and online tools.
 ## 10. Do you have testers?
 Yes. Depending on the project we have access to experienced dedictaed testing teams. Often these QA teams are fully intergrated in the design process to allow appropriate context and understanding of the requirements.
 
-# 11. Do new candidates write code during their interview?
+## 11. Do new candidates write code during their interview?
 elementalsystems exclusively uses developers who are experienced both in business and technology. We only work with people with which we have done real life projects and whom have demonstrated their ability to work independently and professionally.
 
-# 12. Do you do hallway usability testing?
+## 12. Do you do hallway usability testing?
 Always - Quick and efficient UX testing is the basis of our design process. For larger projects full design testing from paper or prototype screens is usually executed before embarking on development. 
 
